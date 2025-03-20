@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
   <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
 <body>
@@ -22,7 +24,7 @@
       </a>
       <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
         <button type="button"
-          class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center">
+          class="text-white transition-all duration-500 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center">
           <a href="signup.html">Sign Up</a></button>
         <button data-collapse-toggle="navbar-cta" type="button"
           class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
@@ -92,122 +94,46 @@
   </div>
 </section>
 
-  <section class="text-gray-600 body-font">
-    <div class="container px-5 py-24 mx-auto">
-      <div class="flex flex-wrap -m-4">
-        <div class="p-4 md:w-1/3">
-          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/720x400"
-              alt="blog">
-            <div class="p-6">
-              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-              <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
-                microdosing tousled waistcoat.</p>
-              <div class="flex items-center flex-wrap ">
-                <a class="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
-                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M5 12h14"></path>
-                    <path d="M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
-                <span
-                  class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
-                    stroke-linejoin="round" viewBox="0 0 24 24">
-                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                    <circle cx="12" cy="12" r="3"></circle>
-                  </svg>1.2K
-                </span>
-                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
-                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
-                    stroke-linejoin="round" viewBox="0 0 24 24">
-                    <path
-                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
-                    </path>
-                  </svg>6
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="p-4 md:w-1/3">
-          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="image/HERO1.png" alt="blog">
-            <div class="p-6">
-              <h2 class="tracking-widest text-xs title-font font-medium font-poppins text-gray-400 mb-1">BLOG</h2>
-              <h1 class="title-font text-lg font-bold font-poppins text-gray-900 mb-3">FAVRÉ</h1>
-              <p class="leading-relaxed mb-3">Experience the perfect blend of natural beauty and ultimate comfort.
-              </p>
-              <div class="flex items-center flex-wrap">
-                <a class="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
-                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M5 12h14"></path>
-                    <path d="M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
-                <span
-                  class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
-                    stroke-linejoin="round" viewBox="0 0 24 24">
-                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                    <circle cx="12" cy="12" r="3"></circle>
-                  </svg>1.2K
-                </span>
-                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
-                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
-                    stroke-linejoin="round" viewBox="0 0 24 24">
-                    <path
-                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
-                    </path>
-                  </svg>6
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="p-4 md:w-1/3">
-          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402"
-              alt="blog">
-            <div class="p-6">
-              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
-              <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
-                microdosing tousled waistcoat.</p>
-              <div class="flex items-center flex-wrap ">
-                <a class="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
-                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M5 12h14"></path>
-                    <path d="M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
-                <span
-                  class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
-                    stroke-linejoin="round" viewBox="0 0 24 24">
-                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                    <circle cx="12" cy="12" r="3"></circle>
-                  </svg>1.2K
-                </span>
-                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
-                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
-                    stroke-linejoin="round" viewBox="0 0 24 24">
-                    <path
-                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
-                    </path>
-                  </svg>6
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
+<div class="carousel rounded-box mb-10 h-[80vh] ">
+  <div class="carousel-item">
+    <img
+      src="carousel/carousel1.png"
+      alt="Burger" />
+  </div>
+  <div class="carousel-item">
+    <img
+      src="carousel/carousel2.png"
+      alt="Burger" />
+  </div>
+  <div class="carousel-item" >
+    <img
+      src="carousel/carousel3.png"
+      alt="Burger" />
+  </div>
+  <div class="carousel-item">
+    <img
+      src="carousel/carousel4.png"
+      alt="Burger" />
+  </div>
+  <div class="carousel-item">
+    <img
+      src="carousel/carousel5.png"
+      alt="Burger" />
+  </div>
+  <div class="carousel-item">
+    <img
+      src="carousel/carousel6.png"
+      alt="Burger" />
+  </div>
+  <div class="carousel-item">
+    <img
+      src="carousel/carousel7.png"
+      alt="Burger" />
+  </div>
+</div>
+
+  
 
   <section class="bg-blue-700 py-8 antialiased md:py-12">
     <div class="mx-auto max-w-screen-xl px-4 2xl:px-0">
@@ -367,7 +293,7 @@
               <p class="text-2xl font-extrabold leading-tight text-gray-900 ">$1,699</p>
 
               <button type="button"
-                class="inline-flex items-center rounded-lg bg-blue-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4  focus:ring-blue-300">
+                class="inline-flex items-center rounded-lg bg-blue-700 px-5 py-2.5 text-sm font-medium text-white transition-all duration-500 hover:bg-blue-800 focus:outline-none focus:ring-4  focus:ring-blue-300">
                 <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                   height="24" fill="none" viewBox="0 0 24 24">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -490,7 +416,7 @@
               <p class="text-2xl font-extrabold leading-tight text-gray-900 d">$1,199</p>
 
               <button type="button"
-                class="inline-flex items-center rounded-lg bg-blue-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4  focus:ring-blue-300">
+                class="inline-flex items-center rounded-lg bg-blue-700 px-5 py-2.5 text-sm font-medium text-white transition-all duration-500 hover:bg-blue-800 focus:outline-none focus:ring-4  focus:ring-blue-300">
                 <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                   height="24" fill="none" viewBox="0 0 24 24">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -613,7 +539,7 @@
               <p class="text-2xl font-extrabold leading-tight text-gray-900 ">$799</p>
 
               <button type="button"
-                class="inline-flex items-center rounded-lg bg-blue-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4  focus:ring-blue-300">
+                class="inline-flex items-center rounded-lg bg-blue-700 px-5 py-2.5 text-sm font-medium text-white transition-all duration-500 hover:bg-blue-800 focus:outline-none focus:ring-4  focus:ring-blue-300">
                 <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                   height="24" fill="none" viewBox="0 0 24 24">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -736,7 +662,7 @@
               <p class="text-2xl font-extrabold leading-tight text-gray-900">$499</p>
 
               <button type="button"
-                class="inline-flex items-center rounded-lg bg-blue-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4  focus:ring-blue-300">
+                class="inline-flex items-center rounded-lg bg-blue-700 px-5 py-2.5 text-sm font-medium text-white transition-all duration-500 hover:bg-blue-800 focus:outline-none focus:ring-4  focus:ring-blue-300">
                 <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                   height="24" fill="none" viewBox="0 0 24 24">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -859,7 +785,7 @@
               <p class="text-2xl font-extrabold leading-tight text-gray-900">$499</p>
 
               <button type="button"
-                class="inline-flex items-center rounded-lg bg-blue-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4  focus:ring-blue-300">
+                class="inline-flex items-center rounded-lg bg-blue-700 px-5 py-2.5 text-sm font-medium text-white transition-all duration-500 hover:bg-blue-800 focus:outline-none focus:ring-4  focus:ring-blue-300">
                 <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                   height="24" fill="none" viewBox="0 0 24 24">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -982,7 +908,7 @@
               <p class="text-2xl font-extrabold leading-tight text-gray-900">$2,599</p>
 
               <button type="button"
-                class="inline-flex items-center rounded-lg bg-blue-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4  focus:ring-blue-300">
+                class="inline-flex items-center rounded-lg bg-blue-700 px-5 py-2.5 text-sm font-medium text-white transition-all duration-500 hover:bg-blue-800 focus:outline-none focus:ring-4  focus:ring-blue-300">
                 <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                   height="24" fill="none" viewBox="0 0 24 24">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -1105,7 +1031,7 @@
               <p class="text-2xl font-extrabold leading-tight text-gray-900">$699</p>
 
               <button type="button"
-                class="inline-flex items-center rounded-lg bg-blue-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4  focus:ring-blue-300">
+                class="inline-flex items-center rounded-lg bg-blue-700 px-5 py-2.5 text-sm font-medium text-white transition-all duration-500 hover:bg-blue-800 focus:outline-none focus:ring-4  focus:ring-blue-300">
                 <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                   height="24" fill="none" viewBox="0 0 24 24">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -1227,7 +1153,7 @@
               <p class="text-2xl font-extrabold leading-tight text-gray-900">$899</p>
 
               <button type="button"
-                class="inline-flex items-center rounded-lg bg-blue-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4  focus:ring-blue-300">
+                class="inline-flex items-center rounded-lg bg-blue-700 px-5 py-2.5 text-sm font-medium text-white transition-all duration-500 hover:bg-blue-800 focus:outline-none focus:ring-4  focus:ring-blue-300">
                 <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                   height="24" fill="none" viewBox="0 0 24 24">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -1241,7 +1167,7 @@
       </div>
       <div class="w-full text-center">
         <button type="button"
-          class="rounded-lg border border-gray-200 bg-white px-5 py-2.5 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100"><a
+          class="rounded-lg border border-gray-200 bg-white px-5 py-2.5 text-sm font-medium transition-all duration-500 text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100"><a
             href="shop.html">Show More</a></button>
       </div>
     </div>
@@ -2022,5 +1948,134 @@
       </div>
     </form>
   </section>
+
+
+
+  <!-- Footer -->
+  <div class="relative mt-16 bg-blue-700">
+  <svg class="absolute top-0 w-full h-6 -mt-5 sm:-mt-10 sm:h-16 text-deep-purple-accent-400" preserveAspectRatio="none" viewBox="0 0 1440 54">
+    <path fill="#1D4ED8" d="M0 22L120 16.7C240 11 480 1.00001 720 0.700012C960 1.00001 1200 11 1320 16.7L1440 22V54H1320C1200 54 960 54 720 54C480 54 240 54 120 54H0V22Z"></path>
+  </svg>
+  <div class="px-4 pt-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+    <div class="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
+      <div class="md:max-w-md lg:col-span-2">
+        <a href="index.html" aria-label="Go home" title="Company" class="inline-flex items-center">
+          <span class="ml-2 text-xl font-bold tracking-wide text-white uppercase">FAVRÉ</span>
+        </a>
+        <div class="mt-4 lg:max-w-sm">
+          <p class="text-sm text-white">
+            FAVRÉ was born from a passion for bold and authentic fashion. Every detail in our collection is designed to keep you comfy without sacrificing style.
+          </p>
+          <p class="mt-4 text-sm text-white">
+          Cause true confidence is the key to rocking every look.
+          </p>
+        </div>
+      </div>
+      <div class="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
+        <div>
+          <p class="font-semibold tracking-wide text-white">
+            Style
+          </p>
+          <ul class="mt-2 space-y-2">
+            <li>
+              <a href="#" class="text-sm transition-all duration-300 text-white hover:text-amber-400 hover:font-bold">Streetwear</a>
+            </li>
+            <li>
+              <a href="#" class="text-sm transition-all duration-300 text-white hover:text-amber-400 hover:font-bold">Vintage</a>
+            </li>
+            <li>
+              <a href="#" class="text-sm transition-all duration-300 text-white hover:text-amber-400 hover:font-bold">Casual</a>
+            </li>
+            <li>
+              <a href="#" class="text-sm transition-all duration-300 text-white hover:text-amber-400 hover:font-bold">Formal</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p class="font-semibold tracking-wide text-white">Collections</p>
+          <ul class="mt-2 space-y-2">
+            <li>
+              <a href="#" class="text-sm transition-all duration-300 text-white hover:text-amber-400 hover:font-bold">Outerwear</a>
+            </li>
+            <li>
+              <a href="#" class="text-sm transition-all duration-300 text-white hover:text-amber-400 hover:font-bold">Tops</a>
+            </li>
+            <li>
+              <a href="#" class="text-sm transition-all duration-300 text-white hover:text-amber-400 hover:font-bold">Bottoms</a>
+            </li>
+            <li>
+              <a href="#" class="text-sm transition-all duration-300 text-white hover:text-amber-400 hover:font-bold">Accessories</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p class="font-semibold tracking-wide text-white">Trends</p>
+          <ul class="mt-2 space-y-2">
+            <li>
+              <a href="#" class="text-sm transition-all duration-300 text-white hover:text-amber-400 hover:font-bold">Y2K Vibes</a>
+            </li>
+            <li>
+              <a href="#" class="text-sm transition-all duration-300 text-white hover:text-amber-400 hover:font-bold">Minimalist</a>
+            </li>
+            <li>
+              <a href="#" class="text-sm transition-all duration-300 text-white hover:text-amber-400 hover:font-bold">Bold Prints</a>
+            </li>
+            <li>
+              <a href="#" class="text-sm transition-all duration-300 text-white hover:text-amber-400 hover:font-bold">Monochrome</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p class="font-semibold tracking-wide text-white">About</p>
+          <ul class="mt-2 space-y-2">
+            <li>
+              <a href="#" class="text-sm transition-all duration-300 text-white hover:text-amber-400 hover:font-bold">Our Story</a>
+            </li>
+            <li>
+              <a href="#" class="text-sm transition-all duration-300 text-white hover:text-amber-400 hover:font-bold">Sustainability</a>
+            </li>
+            <li>
+              <a href="#" class="text-sm transition-all duration-300 text-white hover:text-amber-400 hover:font-bold">Collaborations</a>
+            </li>
+            <li>
+              <a href="#" class="text-sm transition-all duration-300 text-white hover:text-amber-400 hover:font-bold">Lookbook</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col justify-between pt-5 pb-10 border-t border-deep-purple-accent-200 sm:flex-row">
+      <p class="text-sm text-white">
+        © 2024 FAVRE. All Rights Reserved. | Timeless Fashion, Effortless Confidence.
+      </p>
+      <div class="flex items-center mt-4 space-x-4 sm:mt-0">
+        <a href="#" target="_blank" class="transition-colors duration-300 text-deep-purple-100 hover:text-blue-400">
+          <svg viewBox="0 0 24 24" fill="white" class="h-5">
+            <path
+              d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z"
+            ></path>
+          </svg>
+        </a>
+        <a href="https://www.instagram.com/rjagstavv/" target="_blank" rel="noopener noreferrer" class="transition-colors duration-300 text-deep-purple-100 hover:text-blue-400">
+          <svg viewBox="0 0 30 30" fill="white" class="h-6">
+            <circle cx="15" cy="15" r="4"></circle>
+            <path
+              d="M19.999,3h-10C6.14,3,3,6.141,3,10.001v10C3,23.86,6.141,27,10.001,27h10C23.86,27,27,23.859,27,19.999v-10   C27,6.14,23.859,3,19.999,3z M15,21c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S18.309,21,15,21z M22,9c-0.552,0-1-0.448-1-1   c0-0.552,0.448-1,1-1s1,0.448,1,1C23,8.552,22.552,9,22,9z"
+            ></path>
+          </svg>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100083508487162&sk=photos" target="_blank" rel="noopener noreferrer class="transition-colors duration-300 text-deep-purple-100 hover:text-blue-400">
+          <svg viewBox="0 0 24 24" fill="white" class="h-5">
+            <path
+              d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z"
+            ></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 </body>
 </html>
